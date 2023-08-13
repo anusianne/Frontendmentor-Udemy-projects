@@ -2,10 +2,10 @@ body {
   background-color: hsl(210, 46%, 95%);
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
-  max-width: 1440px;
 }
 .candidates {
   display: grid;
+  max-width: 1000px;
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
@@ -13,9 +13,11 @@ body {
   grid-template-areas:
     "first first second third"
     "forth fifth fifth third";
+  gap: 10px;
 }
 .dataOfCandidates {
   display: flex;
+  padding: 20px;
 }
 .description {
   font-weight: 500;
@@ -33,7 +35,10 @@ body {
 .img {
   border-radius: 50%;
   border: 1px solid white;
-  display: inline;
+  max-width: 30px;
+}
+.verify {
+  opacity: 50%;
 }
 .first {
   grid-area: first;
