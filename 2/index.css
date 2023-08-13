@@ -13,7 +13,14 @@ body {
   grid-template-areas:
     "first first second third"
     "forth fifth fifth third";
-  column-gap: 2vw;
+}
+.dataOfCandidates {
+  display: flex;
+}
+.img {
+  border-radius: 50%;
+  border: 1px solid white;
+  display: inline;
 }
 .first {
   grid-area: first;
