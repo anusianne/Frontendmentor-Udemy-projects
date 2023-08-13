@@ -17,6 +17,19 @@ body {
 .dataOfCandidates {
   display: flex;
 }
+.description {
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.citation {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .img {
   border-radius: 50%;
   border: 1px solid white;
@@ -26,11 +39,13 @@ body {
   grid-area: first;
   border-radius: 7px;
   background-color: hsl(263, 55%, 52%);
+  color: white;
 }
 .second {
   grid-area: second;
   border-radius: 7px;
   background-color: hsl(217, 19%, 35%);
+  color: white;
 }
 .third {
   grid-area: third;
@@ -46,4 +61,5 @@ body {
   grid-area: fifth;
   border-radius: 7px;
   background-color: hsl(219, 29%, 14%);
+  color: white;
 }
