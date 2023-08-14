@@ -5,9 +5,10 @@ body {
 }
 .candidates {
   display: grid;
+  margin: 0 auto;
   max-width: 1000px;
-  align-items: center;
-  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
@@ -36,6 +37,7 @@ body {
   border-radius: 50%;
   border: 1px solid white;
   max-width: 30px;
+  margin-right: 10px;
 }
 .verify {
   opacity: 50%;
