@@ -129,8 +129,11 @@ body {
   .candidates {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "first second third"
-      "forth fifth";
+      "first"
+      "second"
+      "third"
+      "forth"
+      "fifth";
     gap: 5px;
   }
 }
