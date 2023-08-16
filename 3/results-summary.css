@@ -1,3 +1,67 @@
 body {
   font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+}
+#container {
+  display: grid;
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 15%;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+#result {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 6%;
+  width: 330px;
+  height: 450px;
+}
+#points {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  padding: 50px;
+}
+#points span {
+  font-size: 15px;
+  font-weight: 300;
+  color: hsl(241, 100%, 89%);
+  display: block;
+  position: absolute;
+  top: 55%;
+  left: 39%;
+}
+#titleResult {
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+  padding-top: 10px;
+}
+#congrats {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+#aboutYou {
+  color: hsl(241, 100%, 89%);
+  font-size: 15px;
+  padding-left: 20%;
+}
+#aboutYou span {
+  padding-left: 23%;
+}
+#summary {
+  background-color: white;
+}
+#listOf {
+  list-style: none;
 }
