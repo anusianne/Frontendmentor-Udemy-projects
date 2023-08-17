@@ -26,7 +26,7 @@ body {
   height: 100px;
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 600;
   background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   border-radius: 50%;
@@ -38,7 +38,7 @@ body {
   color: hsl(241, 100%, 89%);
   display: block;
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 39%;
 }
 #titleResult {
@@ -77,9 +77,9 @@ body {
 ul > li {
   margin-top: 20px;
   border-radius: 15px;
-  padding: 10px;
+  padding: 10px 5px 10px 15px;
   margin-left: 15px;
-  margin-right: 15px;
+  margin-right: 45px;
 }
 #listOf {
   list-style: none;
@@ -91,26 +91,43 @@ ul > li {
 }
 li:nth-child(1) {
   background: hsl(0, 100%, 67%, 0.05);
+  background-image: url("assets/images/icon-reaction.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
   color: hsl(0, 100%, 67%);
+  padding-left: 30px;
 }
 li:nth-child(2) {
   background: hsl(39, 100%, 56%, 0.05);
+  background-image: url("assets/images/icon-memory.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
   color: hsl(39, 100%, 56%);
+  padding-left: 30px;
 }
 li:nth-child(3) {
   background: hsl(166, 100%, 37%, 0.05);
+  background-image: url("assets/images/icon-verbal.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
   color: hsl(166, 100%, 37%);
+  padding-left: 30px;
 }
 li:nth-child(4) {
   background: hsl(234, 85%, 45%, 0.05);
+  background-image: url("assets/images/icon-visual.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
   color: hsl(234, 85%, 45%);
+  padding-left: 30px;
 }
 .btn {
   display: block;
   margin: 0 auto;
-  padding: 10px 100px 10px 100px;
-  border-radius: 20px;
+  padding: 15px 90px 15px 90px;
+  border: 0;
+  border-radius: 25px;
   background-color: hsl(224, 30%, 27%);
   color: white;
-  margin-right: 20px;
+  margin-right: 40px;
 }
