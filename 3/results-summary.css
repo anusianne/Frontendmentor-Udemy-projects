@@ -135,9 +135,11 @@ li:nth-child(4) {
   @media (max-width: 375px) {
     body {
       display: block;
+      margin: 0;
     }
     #container {
       display: grid;
+      width: 100%;
       grid-template-areas:
         "result"
         "summary"
@@ -145,20 +147,18 @@ li:nth-child(4) {
     }
     #result {
       grid-area: result;
+      width: 370px;
     }
     #summary {
       grid-area: summary;
       position: absolute;
       top: 50%;
       left: 10%;
-      box-shadow: 5px 5px 5px hsl(221, 100%, 96%),
-        5px 0px 5px hsl(221, 100%, 96%);
-      border-top-right-radius: 6%;
-      border-bottom-right-radius: 6%;
+      box-shadow: none;
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 300px;
+      width: 370px;
     }
     h3#titleSum {
       position: absolute;
@@ -169,13 +169,13 @@ li:nth-child(4) {
     }
     ul#listOf {
       margin-top: 0;
-      display: grid;
-      place-items: center;
+      position: absolute;
+      right: 0;
       border-radius: 10px;
-      width: 400px;
+      width: 390px;
     }
     li {
-      width: 200px;
+      width: 230px;
     }
     ul > li {
       padding: 15px 50px 15px 50px;
@@ -183,9 +183,9 @@ li:nth-child(4) {
     .btn {
       position: absolute;
       top: 90%;
-      left: 5%;
-      padding-left: 110px;
-      padding-right: 110px;
+      right: 5%;
+      padding-left: 130px;
+      padding-right: 130px;
     }
   }
 }
