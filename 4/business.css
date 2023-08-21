@@ -1,0 +1,70 @@
+body {
+  font-family: "Inter", sans-serif;
+  /* !font-family: 'Lexend Deca', sans-serif;*/
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: grid;
+  width: 50%;
+  grid-template-columns: repeat(2, 500px);
+  height: 400px;
+  margin-top: 15%;
+}
+.numbers {
+  display: grid;
+  grid-template-areas:
+    "first"
+    "second"
+    "third";
+  background-color: hsl(244, 38%, 16%);
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+img {
+  display: grid;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+h1 {
+  grid-area: first;
+  padding-top: 30px;
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+}
+#insights {
+  color: blueviolet;
+}
+#title {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 35px;
+  padding-left: 50px;
+  margin-bottom: 0;
+}
+#description {
+  color: hsla(0, 0%, 100%, 0.75);
+  grid-area: second;
+  padding-left: 50px;
+  margin-top: 0;
+}
+#company,
+#query,
+#template {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 15px;
+  grid-area: third;
+}
+.company {
+  padding-left: 50px;
+}
+.template {
+  padding-left: 200px;
+}
+.query {
+  padding-left: 350px;
+}

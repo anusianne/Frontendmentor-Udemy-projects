@@ -9,19 +9,45 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="business.css" />
     <title>Stats preview card component</title>
   </head>
   <body>
-    <h1>Get insights that help your business grow.</h1>
-    <p class="description" id="description">
-      Discover the benefits of data analytics and make better decisions
-      regarding revenue, customer experience, and overall efficiency.
-    </p>
-    <main class="numbers" id="numbers">
-      <section class="company" id="company">10k+ companies</section>
-      <section class="template" id="template">314 templates</section>
-      <section class="query" id="query">12m+ queries</section>
-    </main>
+    <section class="container" id="container">
+      <main class="numbers" id="numbers">
+        <h1 class="title" id="title">
+          Get <span id="insights">insights</span> that help <br />
+          your business grow.
+        </h1>
+        <p class="description" id="description">
+          Discover the benefits of data analytics and make <br />
+          better decisions regarding revenue, customer <br />
+          experience, and overall efficiency.
+        </p>
+        <div class="company" id="company">
+          <h2>10k+</h2>
+          companies
+        </div>
+        <div class="template" id="template">
+          <h2>314</h2>
+          templates
+        </div>
+        <div class="query" id="query">
+          <h2>12m+</h2>
+          queries
+        </div>
+      </main>
+      <aside class="img" id="img">
+        <img src="images/image-header-desktop.jpg" alt="" />
+      </aside>
+    </section>
   </body>
 </html>
