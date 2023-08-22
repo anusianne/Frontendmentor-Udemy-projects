@@ -1,6 +1,5 @@
 body {
   font-family: "Inter", sans-serif;
-  /* !font-family: 'Lexend Deca', sans-serif;*/
   background-color: hsl(233, 47%, 7%);
   display: flex;
   justify-content: center;
@@ -8,63 +7,53 @@ body {
 }
 .container {
   display: grid;
-  width: 50%;
-  grid-template-columns: repeat(2, 500px);
-  height: 400px;
-  margin-top: 15%;
+  width: 70%;
+  grid-template-columns: 2fr 1fr;
+  margin: 0 auto;
+  background-color:  hsl(244, 38%, 16%);
 }
 .numbers {
   display: grid;
-  grid-template-areas:
-    "first"
-    "second"
-    "third";
-  background-color: hsl(244, 38%, 16%);
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
+  margin: 0 auto;
+  width: 80%;
 }
-img {
-  display: grid;
-  border-top-right-radius: 7px;
-  border-bottom-right-radius: 7px;
-}
-h1 {
-  grid-area: first;
-  padding-top: 30px;
+.img {
+  max-width: 100%;
+  display: flex;
 }
 h2 {
   color: hsl(0, 0%, 100%);
+  font-family: "Lexend Deca", sans-serif;
 }
 #insights {
   color: blueviolet;
 }
 #title {
   color: hsl(0, 0%, 100%);
-  font-weight: 700;
-  font-size: 35px;
-  padding-left: 50px;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 5% 0 0 0;
   margin-bottom: 0;
 }
 #description {
   color: hsla(0, 0%, 100%, 0.75);
-  grid-area: second;
-  padding-left: 50px;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
 }
-#company,
-#query,
-#template {
+#container2 {
   color: hsla(0, 0%, 100%, 0.6);
   text-transform: uppercase;
   font-size: 15px;
-  grid-area: third;
+  display: grid;
+  grid-template-areas: "company template query"
 }
 .company {
-  padding-left: 50px;
+grid-area: company;
 }
 .template {
-  padding-left: 200px;
+grid-area: template;
 }
 .query {
-  padding-left: 350px;
+grid-area: query;
 }
