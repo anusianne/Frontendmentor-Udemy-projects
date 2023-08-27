@@ -6,9 +6,10 @@ body {
 }
 .container {
   width: 50%;
+  max-width: 800px;
   margin: auto;
   background: red;
-  margin-top: 500px;
+  margin-top: 20%;
   display: flex;
 }
 .left-side {
@@ -18,4 +19,5 @@ body {
   flex: 1;
 }
 .img {
+  width: 100%;
 }
