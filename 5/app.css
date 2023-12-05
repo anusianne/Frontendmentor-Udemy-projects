@@ -1,29 +1,30 @@
-*  {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
-    display: block;
-    margin: 0 auto;
-    background-color: hsl(185, 75%, 39%);
+  display: block;
+  margin: 0 auto;
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
 }
 .container {
-    background-color: white;
-    width: 70%;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    margin: 0 auto;
-    margin-top: 15em;
+  background-color: white;
+  width: 70%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: 15em;
 }
 .img-victor {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 .number-part {
-    display: flex;
+  display: flex;
 }
 .number-item {
-    display: grid;
-    grid-template-columns: 70px;
+  display: grid;
+  grid-template-columns: 70px;
 }
