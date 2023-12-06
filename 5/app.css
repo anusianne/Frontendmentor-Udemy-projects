@@ -1,29 +1,103 @@
-*  {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
-    display: block;
-    margin: 0 auto;
-    background-color: hsl(185, 75%, 39%);
+  display: block;
+  margin: 0 auto;
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+}
+h2,
+.number-item {
+  font-size: 18px;
+}
+
+.number-item,
+span {
+  margin: 0.5em;
+}
+hr {
+  color: lightgray;
+  margin: 1em;
+}
+h3,
+span {
+  color: hsl(0, 0%, 59%);
+  font-weight: 100;
+  font-size: 12px;
+}
+h3 {
+  margin: 1em;
+}
+span {
+  letter-spacing: 2px;
+}
+.bg {
+  position: absolute;
+  width: 60%;
+  height: 130px;
+  background: url("/5/bg-pattern-card.svg");
+  top: 17%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.description {
+  margin-top: 6em;
 }
 .container {
-    background-color: white;
-    width: 70%;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    margin: 0 auto;
-    margin-top: 15em;
+  background-color: white;
+  width: 60%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: 15em;
+  text-align: center;
+  border-radius: 15px;
 }
 .img-victor {
-    border-radius: 50%;
+  top: 30%;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid white;
 }
 .number-part {
-    display: flex;
+  display: flex;
+  font-weight: 700;
 }
 .number-item {
-    display: grid;
-    grid-template-columns: 70px;
+  display: grid;
+  grid-template-columns: 70px;
+}
+.bottom-bg {
+  background: url("/5/bg-pattern-bottom.svg");
+  position: absolute;
+  z-index: -1;
+  width: 35%;
+  height: 500px;
+  bottom: 0;
+  right: 0;
+}
+.top-bg {
+  background: url("/5/bg-pattern-top.svg");
+  position: absolute;
+  z-index: -1;
+  width: 35%;
+  height: 400px;
+  top: 0;
+  left: 0;
+  transform: rotate(180deg);
+}
+@media screen and (min-width: 800px) {
+  .container,
+  .bg {
+    width: 30%;
+    max-width: 400px;
+  }
+  .bottom-bg,
+  .top-bg {
+    width: 50%;
+  }
 }
