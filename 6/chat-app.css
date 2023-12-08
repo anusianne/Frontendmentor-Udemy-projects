@@ -37,4 +37,39 @@ body {
 }
 .chat-section {
     padding: 2em;
+    background-color: hsl(270, 20%, 96%);
+    font-size: 0.8em;
+    font-weight: 500;
+}
+p.left {
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(270, 7%, 64%, 0.2);
+    padding: 1em;
+    width: 60%;
+    border-radius: 1em;
+}
+.first, .second, .third {
+    margin-bottom: 1em;
+}
+.image-section {
+    float: right;
+    width: 60%;
+}
+.dog {
+    width: 5em;
+    height: 5em;
+    border-radius: 1em;
+    margin-right: 1em;
+}
+p.right {
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    width: 60%;
+}
+.right-section {
+    margin-top: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
