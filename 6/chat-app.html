@@ -6,7 +6,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="chat-app.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Chat-app</title>
@@ -32,19 +31,20 @@
             <p class="right second">Can you make it?</p></section>
     <p class="left third">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
     <section class="select-section">
-        <input type="radio" id="min" name="drone" value="min" />
-        <label for="min">30 minute walk $29</label>
-        <input type="radio" id="hour" name="drone" value="hour" />
-        <label for="hour">1 hour walk $49</label>
+        <div class="min">
+            <input type="radio" id="min" name="drone" value="min" />
+            <label for="min">30 minute walk <span class="min-span">$29</span></label>
+        </div>
+           <div class="hour"><input type="radio" id="hour" name="drone" value="hour" />
+            <label for="hour">1 hour walk<span class="hour-span">$49</span></label>
+           </div>
     </section>
-
     <section class="textarea">
+        <div class="placeholder">
         <textarea>Type a message...</textarea>
-        <button>Send</button>
+        </div>
     </section>
     </section>
 </div>
-
-
 </body>
 </html>
