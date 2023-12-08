@@ -51,6 +51,9 @@ p.left {
 .first, .second, .third {
     margin-bottom: 1em;
 }
+p.right.second {
+    width: 40%;
+}
 .image-section {
     display: flex;
     float: right;
@@ -99,9 +102,16 @@ p.right {
     font-size: 1.5em;
 }
 label {
-    padding-left: 1em;
-    position: absolute;
+    padding-left: 2em;
     color: white;
+}
+input#min {
+    position: absolute;
+    bottom: 268px;
+}
+input#hour {
+    position: absolute;
+    bottom: 190px;
 }
 textarea {
     height: 150px;
