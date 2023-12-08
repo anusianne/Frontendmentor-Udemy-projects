@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+}
+.chat-container {
+    display: grid;
+    place-items: center;
+    margin: 0.5em;
+    border: 2px solid red;
+}
+.profile-img {
+    width: 3em;
+    border-radius: 50%;
+    border: 1px solid red;
+}
