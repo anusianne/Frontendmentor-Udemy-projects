@@ -5,15 +5,36 @@
 }
 body {
     font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    display: block;
 }
 .chat-container {
     display: grid;
     place-items: center;
-    margin: 0.5em;
+    margin: 0 auto;
+    margin-top: 2em;
     border: 2px solid red;
+    max-width: 450px;
+}
+.profile-section {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding-top: 2em;
+    padding-left: 6em;
+    flex-direction: column;
+    background-color: hsl(264, 100%, 61%);
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    color: white;
+    position: relative;
 }
 .profile-img {
-    width: 3em;
+    width: 2.85em;
     border-radius: 50%;
-    border: 1px solid red;
+    border: 2px solid white;
+    position: absolute;
+    left: 3em;
+}
+.chat-section {
+    padding: 2em;
 }
