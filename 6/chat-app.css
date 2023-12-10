@@ -1,136 +1,146 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Rubik', sans-serif;
-    font-size: 1rem;
-    display: block;
-    background-color: hsl(270, 20%, 96%);
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  display: block;
+  background-color: hsl(270, 20%, 96%);
 }
 .chat-container {
-    display: grid;
-    place-items: center;
-    margin: 0 auto;
-    margin-top: 2em;
-    border:8px solid white;
-    border-radius: 30px;
-    max-width: 385px;
-    box-shadow: 0.5px 2px 2px grey;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  margin-top: 2em;
+  border: 8px solid white;
+  border-radius: 30px;
+  max-width: 385px;
+  box-shadow: 0.5px 2px 2px grey;
 }
 .profile-section {
-    display: flex;
-    width: 100%;
-    height: 100px;
-    padding-top: 2em;
-    padding-left: 6em;
-    flex-direction: column;
-    background-color: hsl(264, 100%, 61%);
-    background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
-    color: white;
-    position: relative;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  padding-top: 2em;
+  padding-left: 6em;
+  flex-direction: column;
+  background-color: hsl(264, 100%, 61%);
+  background-image: linear-gradient(
+    to right,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
+  color: white;
+  position: relative;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .profile-img {
-    width: 2.85em;
-    border-radius: 50%;
-    border: 2px solid white;
-    position: absolute;
-    left: 3em;
+  width: 2.85em;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  left: 3em;
 }
 .chat-section {
-    padding: 2em;
-    background-color: hsl(270, 20%, 96%);
-    font-size: 0.7em;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+  padding: 2em;
+  background-color: hsl(270, 20%, 96%);
+  font-size: 0.7em;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 p.left {
-    color: hsl(276, 55%, 52%);
-    background-color: hsl(270, 7%, 64%, 0.2);
-    padding: 0.9em;
-    width: 60%;
-    border-radius: 1em;
-    font-weight: 300;
+  color: hsl(276, 55%, 52%);
+  background-color: hsl(270, 7%, 64%, 0.2);
+  padding: 0.9em;
+  width: 60%;
+  border-radius: 1em;
+  font-weight: 300;
 }
-.first, .second, .third {
-    margin-bottom: 1em;
+.first,
+.second,
+.third {
+  margin-bottom: 1em;
 }
 p.right.second {
-    width: 40%;
+  width: 40%;
 }
 .image-section {
-    display: flex;
-    float: right;
-    width: 60%;
+  display: flex;
+  float: right;
+  width: 60%;
 }
 .dog {
-    width: 5em;
-    height: 5em;
-    border-radius: 1em;
-    margin-right: 1em;
+  width: 5em;
+  height: 5em;
+  border-radius: 1em;
+  margin-right: 1em;
 }
 p.right {
-    background-color: white;
-    padding: 1em;
-    border-radius: 1em;
-    width: 60%;
-    color: hsl(271, 15%, 43%);
+  background-color: white;
+  padding: 1em;
+  border-radius: 1em;
+  width: 60%;
+  color: hsl(271, 15%, 43%);
 }
 .right-section {
-    margin-top: 7em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  margin-top: 7em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .select-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 70%;
-    left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 70%;
+  left: 50px;
 }
-.min,.hour {
-    background-color: hsl(293, 100%, 63%);
-    background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
-    margin-top: 0.5em;
-    margin-bottom: 2em;
-    padding: 1.25em 1.5em;
-    border-radius: 1.5em;
+.min,
+.hour {
+  background-color: hsl(293, 100%, 63%);
+  background-image: linear-gradient(
+    to right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  padding: 1.25em 1.5em;
+  border-radius: 1.5em;
 }
 .min-span {
-    padding-left: 2em;
-    font-size: 1.5em;
+  padding-left: 2em;
+  font-size: 1.5em;
 }
 .hour-span {
-    padding-left: 3.5em;
-    font-size: 1.5em;
+  padding-left: 3.5em;
+  font-size: 1.5em;
 }
 label {
-    padding-left: 2em;
-    color: white;
+  padding-left: 2em;
+  color: white;
 }
 input#min {
-    position: absolute;
-    bottom: 268px;
+  position: absolute;
+  bottom: 268px;
 }
 input#hour {
-    position: absolute;
-    bottom: 190px;
+  position: absolute;
+  bottom: 190px;
 }
 textarea {
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid white;
-    border-radius: 20px;
-    resize: none;
-    color: hsl(206, 6%, 79%);
-    font-family: 'Rubik', sans-serif;
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 20px;
+  resize: none;
+  color: hsl(206, 6%, 79%);
+  font-family: "Rubik", sans-serif;
 }
-
-
