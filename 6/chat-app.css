@@ -145,3 +145,13 @@ textarea {
   font-family: "Rubik", sans-serif;
   text-decoration: none;
 }
+@media screen and (min-width: 1200px) {
+  input#min {
+    position: absolute;
+    bottom: 190px;
+  }
+  input#hour {
+    position: absolute;
+    bottom: 115px;
+  }
+}
