@@ -127,11 +127,11 @@ label {
 }
 input#min {
   position: absolute;
-  bottom: 268px;
+  bottom: 150px;
 }
 input#hour {
   position: absolute;
-  bottom: 190px;
+  bottom: 75px;
 }
 textarea {
   width: 100%;
@@ -143,4 +143,5 @@ textarea {
   resize: none;
   color: hsl(206, 6%, 79%);
   font-family: "Rubik", sans-serif;
+  text-decoration: none;
 }
