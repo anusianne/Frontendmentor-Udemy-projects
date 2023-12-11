@@ -9,6 +9,10 @@ body {
   display: block;
   background-color: hsl(270, 20%, 96%);
 }
+.fa-solid {
+  position: absolute;
+  right: 3em;
+}
 .chat-container {
   display: grid;
   place-items: center;
