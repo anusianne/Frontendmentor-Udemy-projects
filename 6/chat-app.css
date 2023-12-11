@@ -9,8 +9,16 @@ body {
   display: block;
   background-color: hsl(270, 20%, 96%);
 }
-.fa-solid {
+.angle,
+.threedots {
   position: absolute;
+  top: 3em;
+  cursor: pointer;
+}
+.angle {
+  left: 1.5em;
+}
+.threedots {
   right: 3em;
 }
 .chat-container {
