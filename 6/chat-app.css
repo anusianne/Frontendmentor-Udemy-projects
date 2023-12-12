@@ -31,6 +31,12 @@ body {
   max-width: 385px;
   box-shadow: 0.5px 2px 2px grey;
 }
+.status, .user-name {
+    padding-left: 0.5em;
+}
+.status {
+    padding-top: 0.2em;
+}
 .profile-section {
   display: flex;
   width: 100%;
@@ -155,7 +161,48 @@ textarea {
   font-family: "Rubik", sans-serif;
   text-decoration: none;
 }
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+    position: absolute;
+    display: inline-flex;
+    right: 8em;
+    top:  61em;
+}
+.fa-angle-right {
+    color: white;
+    position: absolute;
+    display: block;
+    left: 1em;
+    top: 1em;
+}
+.description {
+  margin: 2em;
+  font-family: 'Rubik', sans-serif;
+}
+.sbooking {
+  font-weight: 400;
+  padding-bottom: 1em;
+  font-size: 2rem;
+  color: hsl(271, 36%, 24%);
+  text-align: center;
+}
+.stay-in {
+  margin: 0 2em;
+  text-align: center;
+color: hsl(270, 7%, 64%);
+  font-size: 1rem;
+  line-height: 2em;
+}
 @media screen and (min-width: 1200px) {
+    .fa-angle-right {
+        position: absolute;
+        display: block;
+        left: 1em;
+        top: 1em;
+    }
   input#min {
     /*display: block;*/
   }
