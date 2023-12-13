@@ -9,6 +9,15 @@ body {
   display: block;
   background-color: hsl(270, 20%, 96%);
 }
+.white-bg {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 25px;
+  border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  background-color: white;
+}
 .angle,
 .threedots {
   position: absolute;
@@ -31,11 +40,12 @@ body {
   max-width: 385px;
   box-shadow: 0.5px 2px 2px grey;
 }
-.status, .user-name {
-    padding-left: 0.5em;
+.status,
+.user-name {
+  padding-left: 0.5em;
 }
 .status {
-    padding-top: 0.2em;
+  padding-top: 0.2em;
 }
 .profile-section {
   display: flex;
@@ -149,6 +159,12 @@ input#min {
 input#hour {
   display: inline-flex;
 }
+.textarea {
+  position: relative;
+}
+.placeholder {
+  position: relative;
+}
 textarea {
   width: 100%;
   height: 50px;
@@ -160,27 +176,32 @@ textarea {
   color: hsl(206, 6%, 79%);
   font-family: "Rubik", sans-serif;
   text-decoration: none;
+  position: relative;
+  box-sizing: border-box;
 }
 .circle {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: hsl(271, 36%, 24%);
-    position: absolute;
-    display: inline-flex;
-    right: 8em;
-    top:  61em;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: hsl(271, 36%, 24%);
+  right: 20px;
+  top: 50%;
+  cursor: pointer;
+  position: sticky;
+  transform: translate(650%, -120%);
+  background-position: bottom right;
 }
 .fa-angle-right {
-    color: white;
-    position: absolute;
-    display: block;
-    left: 1em;
-    top: 1em;
+  font-size: 2em;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .description {
   margin: 2em;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .sbooking {
   font-weight: 400;
@@ -192,21 +213,7 @@ textarea {
 .stay-in {
   margin: 0 2em;
   text-align: center;
-color: hsl(270, 7%, 64%);
+  color: hsl(270, 7%, 64%);
   font-size: 1rem;
   line-height: 2em;
-}
-@media screen and (min-width: 1200px) {
-    .fa-angle-right {
-        position: absolute;
-        display: block;
-        left: 1em;
-        top: 1em;
-    }
-  input#min {
-    /*display: block;*/
-  }
-  input#hour {
-    /*display: block;*/
-  }
 }
