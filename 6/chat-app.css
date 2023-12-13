@@ -188,8 +188,7 @@ textarea {
   top: 50%;
   cursor: pointer;
   position: sticky;
-  transform: translate(650%, -120%);
-  background-position: bottom right;
+  transform: translate(700%, -120%);
 }
 .fa-angle-right {
   font-size: 2em;
