@@ -11,6 +11,9 @@
   margin-top: 1em;
   cursor: pointer;
 }
+.logo {
+  margin-left: 1em;
+}
 .links {
   display: flex;
   justify-content: center;
@@ -20,4 +23,11 @@
 .link {
   margin-top: 0.5em;
   margin-right: 1em;
+  font-weight: 400;
+}
+.image1,
+.image2 {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
 }
