@@ -4,6 +4,20 @@
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
 }
-.icon {
-  color: black;
+.navDiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 1em;
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.link {
+  margin-top: 0.5em;
+  margin-right: 1em;
 }
