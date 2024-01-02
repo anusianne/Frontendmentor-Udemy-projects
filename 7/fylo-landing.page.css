@@ -13,6 +13,7 @@
 }
 .logo {
   margin-left: 1em;
+  width: 7em;
 }
 .links {
   display: flex;
@@ -29,5 +30,17 @@
 .image2 {
   display: block;
   margin: 0 auto;
-  width: 90%;
+  margin-top: 5em;
+  width: 80%;
+}
+.heading1 {
+  font-size: 1.75rem;
+  margin: 1em 1.5em;
+  text-align: center;
+  line-height: 1.5em;
+}
+.paragraph1 {
+  line-height: 1.5em;
+  margin: 1em 4.25em;
+  text-align: center;
 }
