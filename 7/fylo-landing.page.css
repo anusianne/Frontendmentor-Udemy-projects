@@ -81,3 +81,42 @@
 .first {
   padding-bottom: 1em;
 }
+a.seeHow {
+  color: hsl(170, 45%, 43%);
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3em 0;
+}
+.box-quote {
+  background-color: white;
+  padding: 1em;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.quote {
+  font-size: 0.8rem;
+  line-height: 1.5em;
+  padding-top: 1em;
+}
+.avatar {
+  border-radius: 50%;
+  width: 2em;
+  position: relative;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 1em;
+}
+.h3_profile {
+  position: absolute;
+  left: 2em;
+}
+.h4_profile {
+  position: absolute;
+  top: 80%;
+  left: 5em;
+  font-size: 0.5rem;
+  font-weight: 400;
+}
