@@ -61,6 +61,12 @@
   margin: 0 auto;
   margin-bottom: 4em;
   display: block;
+  cursor: pointer;
+  color: white;
+}
+.forFree {
+  padding: 0.7em 6em;
+  margin-bottom: 1em;
 }
 .section2 {
   border-top-left-radius: 95px;
@@ -119,4 +125,17 @@ a.seeHow {
   left: 5em;
   font-size: 0.5rem;
   font-weight: 400;
+}
+.get-access {
+  background-color: hsl(238, 22%, 44%);
+  color: white;
+  padding: 3em 2em;
+}
+.heading3 {
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+.paragraph3 {
+  padding-bottom: 1em;
+  text-align: center;
 }
