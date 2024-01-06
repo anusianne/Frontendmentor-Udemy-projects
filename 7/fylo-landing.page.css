@@ -141,3 +141,29 @@ a.seeHow {
   padding-bottom: 1em;
   text-align: center;
 }
+.footer {
+  background-color: hsl(243, 87%, 12%);
+  color: hsl(0, 0%, 75%);
+  padding: 2em 2em;
+}
+.phone,
+.email {
+  display: flex;
+}
+img.icon {
+  padding-top: 1em;
+}
+p.phone,
+p.email {
+  padding-left: 1em;
+  padding-top: 1em;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+  padding-top: 1em;
+}
+.firstList,
+.secondList {
+  padding-top: 1em;
+}
