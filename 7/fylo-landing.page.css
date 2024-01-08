@@ -53,7 +53,6 @@
   padding: 0.7em 5em;
   display: block;
   margin: 0 auto;
-  margin-bottom: 2em;
 }
 .start {
   background-color: hsl(224, 93%, 58%);
@@ -61,7 +60,7 @@
   border: 1px solid hsl(224, 93%, 58%);
   border-radius: 5px;
   margin: 0 auto;
-  margin-bottom: 4em;
+
   display: block;
   cursor: pointer;
   color: white;
@@ -166,4 +165,41 @@ li {
 .firstList,
 .secondList {
   padding-top: 1em;
+}
+@media only screen and (min-width: 1000px) {
+  .firstSection,
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .image1 {
+    width: 35%;
+    order: 2;
+    margin: 5em;
+  }
+  .text-part {
+    margin: 5em;
+  }
+  .formPart {
+    display: flex;
+    flex-direction: row;
+  }
+  .heading1,
+  .paragraph1 {
+    text-align: start;
+    padding-top: 1em;
+  }
+  .heading1 {
+    margin: 0.5em 1em;
+  }
+  .paragraph1 {
+    margin: 0.5em 1.8em;
+    padding-bottom: 1em;
+  }
+  #email {
+    padding: 0 4em;
+    margin-left: 2em;
+  }
 }
