@@ -174,7 +174,8 @@ li {
     justify-content: center;
     align-items: center;
   }
-  .image1 {
+  .image1,
+  .image2 {
     width: 35%;
     order: 2;
     margin: 5em;
