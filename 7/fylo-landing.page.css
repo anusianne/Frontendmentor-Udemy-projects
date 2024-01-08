@@ -183,7 +183,8 @@ li {
   .text-part {
     margin: 5em;
   }
-  .formPart {
+  .formPart,
+  .get-access {
     display: flex;
     flex-direction: row;
   }
@@ -202,5 +203,27 @@ li {
   #email {
     padding: 0 4em;
     margin-left: 2em;
+  }
+  .leftPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .box-quote {
+    width: 40%;
+    padding: 1em 2em;
+  }
+  .heading3,
+  .paragraph3 {
+    width: 65%;
+    text-align: start;
+    letter-spacing: 0.04em;
+  }
+  .text-part2 {
+    padding: 1em 2em;
+  }
+  .forFree {
+    padding: 1em 1em;
   }
 }
