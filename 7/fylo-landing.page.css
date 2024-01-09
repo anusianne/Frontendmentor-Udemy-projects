@@ -201,8 +201,6 @@ li {
     padding-bottom: 1em;
   }
   #email {
-    padding: 0 4em;
-    margin-left: 2em;
   }
   .leftPart {
     display: flex;
@@ -223,7 +221,9 @@ li {
   .text-part2 {
     padding: 1em 2em;
   }
-  .forFree {
-    padding: 1em 1em;
+  .footer,
+  .firstSection,
+  .section2 {
+    padding-left: 4em;
   }
 }
