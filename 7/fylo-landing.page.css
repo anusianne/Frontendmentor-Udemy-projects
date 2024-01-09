@@ -201,6 +201,7 @@ li {
     padding-bottom: 1em;
   }
   #email {
+    padding-left: 1em;
   }
   .leftPart {
     display: flex;
