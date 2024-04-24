@@ -1,6 +1,7 @@
 let apiQuotes = [];
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
+const newQuoteBtn = document.getElementById("new-quote");
 
 function newQuote() {
   const quoteAPI = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
@@ -12,10 +13,9 @@ async function getQuotes() {
   try {
     const res = await fetch(apiURL);
     apiQuotes = await res.json();
-    newQuote();
+    newQuoteBtn.addEventListener("click", newQuote);
   } catch (e) {
     alert(e);
   }
 }
-
 getQuotes();
