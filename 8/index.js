@@ -2,6 +2,7 @@ let apiQuotes = [];
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
 const newQuoteBtn = document.getElementById("new-quote");
+const twitterBtn = document.getElementById("twitterBtn");
 
 function newQuote() {
   const quoteAPI = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
@@ -18,4 +19,9 @@ async function getQuotes() {
     alert(e);
   }
 }
+function tweetQuote() {
+  twitterUrl = `https://twitter.com/intent/tweet?text=${quote.textContent} - ${author.textContent}`;
+  window.open(twitterUrl, "_blank");
+}
+twitterBtn.addEventListener("click", tweetQuote);
 getQuotes();
