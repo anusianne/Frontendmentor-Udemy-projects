@@ -1,21 +1,44 @@
 html {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+  background-color: #45badd;
+}
 .container {
   width: 100vw;
   height: 100vh;
+  position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-}
-body {
-  margin: 0;
   background: url("https://cdn.dribbble.com/users/22930/screenshots/2443275/media/29f59eaf385f5918196f51ee8cdce0a8.gif");
-  background-color: #45badd;
-  background-size: inherit;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  display: block;
-  margin: 0 auto;
+  background-position: left;
+}
+.jokeBtn {
+  margin-top: 5em;
+  width: 150px;
+  padding: 1em;
+  background-color: #e01577;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  filter: brightness(95%);
+}
+button:disabled {
+  cursor: default;
+  filter: brightness(30%);
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    background-position: center center;
+    backroung-size: cover;
+  }
 }
