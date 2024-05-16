@@ -107,10 +107,9 @@ const VoiceRSS = {
 };
 
 function tellMe(joke) {
-  console.log("tell me:", joke);
   VoiceRSS.speech({
     key: "de1d8bc61b2543429d2ebc55f0de2f39",
-    src: "joke",
+    src: joke,
     hl: "en-us",
     r: 0,
     c: "mp3",
@@ -136,4 +135,4 @@ async function getJokes() {
     console.log("whoops: ", e);
   }
 }
-getJokes();
+jokeBtn.addEventListener("click", getJokes);
