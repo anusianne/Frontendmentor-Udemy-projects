@@ -24,6 +24,9 @@ body {
   color: hsl(271, 15%, 43%);
   text-decoration: underline;
 }
+section {
+  min-height: 500px;
+}
 div.title-group {
   margin-top: 10em;
   display: flex;
@@ -32,10 +35,16 @@ div.title-group {
   justify-content: center;
 }
 .h1Custom {
-  font-size: 3em;
+  font-size: 3rem;
   margin-bottom: 0;
 }
 .h2Custom {
-  font-size: 2em;
+  font-size: 2rem;
+  text-align: center;
+}
+#about,
+#projects,
+#contact {
+  font-size: 3rem;
   text-align: center;
 }
