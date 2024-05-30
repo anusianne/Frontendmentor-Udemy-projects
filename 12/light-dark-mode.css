@@ -48,3 +48,17 @@ div.title-group {
   font-size: 3rem;
   text-align: center;
 }
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px 5px grey;
+  margin: 1em;
+}
+#about img {
+  width: 8em;
+}
