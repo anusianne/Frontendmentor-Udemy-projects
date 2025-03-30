@@ -18,6 +18,7 @@
           min="1"
           max="500000"
           value="10000"
+          onchange="calculateLoan()"
         />
       </p>
       <p>
@@ -30,6 +31,7 @@
           max="100"
           value="10"
           step="0.1"
+          onchange="calculateLoan()"
         />
       </p>
       <p>
@@ -41,9 +43,10 @@
           min="6"
           max="48"
           value="12"
+          onchange="calculateLoan()"
         />
       </p>
-      <p class="payment">Monthly Payment:</p>
+      <p class="payment" id="payment">Monthly Payment:</p>
     </div>
 
     <script src="index.js"></script>
