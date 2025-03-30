@@ -7,7 +7,6 @@ colorContainer.forEach((el) => {
       Math.random() * 256
     )}, ${Math.floor(Math.random() * 256)})`;
     el.style.backgroundColor = randomColor;
-    console.log(randomColor);
     el.innerText = randomColor;
   });
 });

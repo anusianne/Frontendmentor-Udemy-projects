@@ -2,6 +2,8 @@ const img = document.querySelector("img");
 const title = document.querySelector("title");
 const artist = document.getElementById("artist");
 const audio = document.querySelector("audio");
+const progressContainer = document.getElementById("progress-container");
+const progress = document.getElementById("progress");
 const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
 const playBtn = document.getElementById("play");
@@ -29,7 +31,6 @@ const songs = [
     artist: "Metric/Jacinto Design",
   },
 ];
-
 function playSong() {
   isPlaying = true;
   playBtn.classList.replace("fa-play", "fa-pause");
@@ -71,5 +72,13 @@ function nextSong() {
   loadSong(songs[songIndex]);
   playSong();
 }
+function updateProgressBar(e) {
+  if (isPlaying) {
+    const { duration, currentTime } = e.srcElement;
+    const progressPercent = (currentTime / duration) * 100;
+    progress.style.width = `${progressPercent}%`;
+  }
+}
 prevBtn.addEventListener("click", prevSong);
 nextBtn.addEventListener("click", nextSong);
+audio.addEventListener("timeupdate", updateProgressBar);
