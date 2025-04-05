@@ -11,6 +11,7 @@ body {
     rgba(34, 193, 195, 1) 0%,
     rgba(253, 187, 45, 1) 100%
   );
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .container {
   background: rgba(255, 255, 255, 0.3);
@@ -23,6 +24,7 @@ body {
 }
 .heading {
   font-size: 30px;
+  text-shadow: 2px 2px lightcoral;
 }
 .bmiInput {
   padding: 10px 20px;

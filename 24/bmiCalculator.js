@@ -11,11 +11,11 @@ function calculateBmi() {
 
   if (bmiValue < 18.5) {
     weightCondition.innerText = "Underweight";
-  } else if (bmiValue > 18.5 && bmiValue < 24.9) {
+  } else if (bmiValue >= 18.5 && bmiValue <= 24.9) {
     weightCondition.innerText = "Normal weight";
-  } else if (bmiValue > 25 && bmiValue < 29.9) {
+  } else if (bmiValue >= 25 && bmiValue <= 29.9) {
     weightCondition.innerText = "Overweight";
-  } else if (bmiValue > 30 && bmiValue < 35) {
+  } else if (bmiValue >= 30 && bmiValue < 35) {
     weightCondition.innerText = "Obese";
   } else {
     weightCondition.innerText = "Morbid obesity";
